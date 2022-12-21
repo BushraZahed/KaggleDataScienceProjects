@@ -1,0 +1,49 @@
+We want to understand in this analysis, which Factors Influence the Price of Health Insurance? We want to vizualize insurance charges data For smokers versus non-smokers.
+
+Many factors that affect how much you pay for health insurance are not within your control. Nonetheless, it's good to have an understanding of what they are. Here are some factors that affect how much health insurance premiums cost
+
+age: age of primary beneficiary
+
+sex: insurance contractor gender, female, male
+
+bmi: Body mass index, providing an understanding of body, weights that are relatively high or low relative to height, objective index of body weight (kg / m ^ 2) using the ratio of height to weight, ideally 18.5 to 24.9
+
+children: Number of children covered by health insurance / Number of dependents
+
+smoker: Smoking
+
+region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest
+
+In this notebook, I examined our data and visualized the features one by one. 
+
+The dataset used to answer this question can be found here https://github.com/stedy/Machine-Learning-with-R-datasets/blob/master/insurance.csv
+
+Columns
+
+age: age of primary beneficiary
+
+sex: insurance contractor gender, female, male
+
+bmi: Body mass index, providing an understanding of body, weights that are relatively high or low relative to height,
+objective index of body weight (kg / m ^ 2) using the ratio of height to weight, ideally 18.5 to 24.9
+
+children: Number of children covered by health insurance / Number of dependents
+
+smoker: Smoking
+
+region: the beneficiary's residential area in the US, northeast, southeast, southwest, northwest.
+
+charges: Individual medical costs billed by health insurance
+
+Summary : From the analysis, we found that we have practically the same number of samples from both gender. The sample is taken across four regions and the sample size is higher from the
+southeast region over the others. The BMI has normal distribution but most of the sample population do not have healthy weight status. Overweight represent more than the half of our data.
+
+-> As we expected, the weight status plays an important role when calculating the charges. we can clearly see the fact that the more unhealthy the person is the higher the charges are.
+
+-> The insurance cost is higher as the population get older. we notice that insurance charges cost higher with increasing bmi among non-smokers versus smokers
+
+-> We notice that, When a person smoke the insurance charges cost higher with increasing bmi than non-smokers. 
+
+-> The customers who pay the most are smokers; whereas the customers who pay the least are non-smokers.
+
+-> The male and female population are charged similar increasing insurance cost respectively based on whether they smoke or not.
