@@ -1,0 +1,65 @@
+About Dataset
+Context
+While many public datasets (on Kaggle and the like) provide Apple App Store data, there are not many counterpart datasets available for Google Play Store apps anywhere on the web. On digging deeper, I found out that iTunes App Store page deploys a nicely indexed appendix-like structure to allow for simple and easy web scraping. On the other hand, Google Play Store uses sophisticated modern-day techniques (like dynamic page load) using JQuery making scraping more challenging.
+
+Content
+Each app (row) has values for catergory, rating, size, and more.
+
+Acknowledgements
+This information is scraped from the Google Play Store. This app information would not be available without it.
+
+Inspiration
+The Play Store apps data has enormous potential to drive app-making businesses to success. Actionable insights can be drawn for developers to work on and capture the Android
+ market!
+ 
+ __________________________________________________________________________________________________________
+ This project is part of PCP-DA---Programming-Foundation-and-Data-Analytics-with-Python/assessment
+ using dataset https://www.kaggle.com/datasets/lava18/google-play-store-apps
+ 
+ 
+App Rating Prediction..
+Course-end Project 1
+
+DESCRIPTION
+
+Objective: Make a model to predict the app rating, with other information about the app provided.
+
+Problem Statement:
+
+Google Play Store team is about to launch a new feature wherein, certain apps that are promising, are boosted in visibility. The boost will manifest in multiple ways including higher priority in recommendations sections (“Similar apps”, “You might also like”, “New and updated games”). These will also get a boost in search results visibility.  This feature will help bring more attention to newer apps that have the potential.
+
+Domain: General
+
+Analysis to be done: The problem is to identify the apps that are going to be good for Google to promote. App ratings, which are provided by the customers, is always a great indicator of the goodness of the app. The problem reduces to: predict which apps will have high ratings.
+
+Content: Dataset: Google Play Store data (“googleplaystore.csv”)
+
+Fields in the data –
+
+App: Application name
+
+Category: Category to which the app belongs 
+
+Rating: Overall user rating of the app
+
+Reviews: Number of user reviews for the app
+
+Size: Size of the app
+
+Installs: Number of user downloads/installs for the app
+
+Type: Paid or Free
+
+Price: Price of the app
+
+Content Rating: Age group the app is targeted at - Children / Mature 21+ / Adult
+
+Genres: An app can belong to multiple genres (apart from its main category). For example, a musical family game will belong to Music, Game, Family genres.
+
+Last Updated: Date when the app was last updated on Play Store
+
+Current Ver: Current version of the app available on Play Store
+
+Android Ver: Minimum required Android version
+
+ 
